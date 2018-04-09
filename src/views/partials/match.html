@@ -1,0 +1,15 @@
+<h1 class="hashtag">{{ title }}</h1>
+{% if data.length > 0 %}
+	{% for item in data %}
+	<div class="tweet">
+		<a target="_blank" href="{{ item.profile_url }}" class="profile">
+			<img src="{{ item.profile_image }}" class="profile_image"/>
+			<p class="user">{{ item.user }}</p>
+			<p class="handle">{{ item.handle }}</p>
+		</a>
+		<a target="_blank" href="{{ item.tweet_url }}" class="content">{{ item.text }}</a>
+	</div>
+	{% endfor %}
+{% else %}
+	<p class="user_message">No tweets here, try another match.</p>
+{% endif %}

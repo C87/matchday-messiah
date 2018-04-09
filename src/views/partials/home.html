@@ -1,0 +1,7 @@
+<h1 class="matchday">{{ title }}</h1>
+{% for item in data %}
+	<a class="fixture" href="/{{ item.hashtag }}">{{ item.fixture }}</a>
+{% endfor %}
+<footer>
+	<p id="copyright">&#169; Shaun Carmody</p>
+</footer>

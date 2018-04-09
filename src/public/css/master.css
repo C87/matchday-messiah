@@ -1,0 +1,165 @@
+/* ----- Default Styling ----- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active
+ {
+	color: inherit;
+	text-decoration: none;
+}
+
+.main {
+	background-image: url("../assets/images/the-ball-stadion-horn-corner-47343.jpeg");
+	position: fixed;
+	overflow-y: scroll;
+	height: 100vh;
+	width: 100vw;
+}
+
+nav {
+	color: #ffffff;
+	font-family: sans-serif;
+	font-weight: lighter;
+	height: 30px;
+	width: 100%;
+}
+
+.icon {
+	margin: auto;
+	margin-top: 20px;
+	max-width: 200px;
+	text-align: center;
+}
+
+.fa-futbol {
+	margin-right: 10px;
+}
+
+footer {
+	bottom: 0;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 100%;
+}
+
+#copyright {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+/* ---- Error and User Messages ---- */
+
+.error_message,
+.user_message {
+	color: #ffffff;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/* ----- END ----- */
+
+/* ----- Home Route ----- */
+
+.matchday {
+	color: #ffffff;
+	cursor: default;
+	font-family: 'Candal', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+
+.fixture {
+	background-color: #ffffff;
+	display: block;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin: auto;
+	max-width: 400px;
+	text-align: center;
+}
+
+.fixture:hover {
+	background-color: #f2ebeb;
+}
+
+.fixture:last-of-type {
+	margin-bottom: 50px;
+}
+
+/* ---------- END ---------- */
+
+
+/* ----- Match Route ----- */
+
+.hashtag {
+	color: #ffffff;
+	cursor: default;
+	font-family: 'Candal', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+
+.tweet {
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin: auto;
+	max-width: 400px;
+}
+
+.tweet:last-of-type {
+	margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 420px)  {
+	.tweet {
+		border-radius: 5px;
+	}
+}
+
+.profile {
+	display: block;
+}
+
+.profile_image {
+	border-radius: 50%;
+	display: inline-block;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 30px;
+}
+
+.user {
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.handle {
+	color: grey;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 5px;
+	position: inherit;
+}
+
+.content {
+	display: block;
+}
+
+/* ---------- END ---------- */

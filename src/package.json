@@ -1,0 +1,30 @@
+{
+  "name": "matchdayMessiah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/dev",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel . -s -d dist --ignore node_modules",
+    "production": "npm run build && node bin/production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.21.0",
+    "nodemon": "^1.17.1",
+    "nunjucks": "^3.1.2",
+    "oauth": "^0.9.15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
+  }
+}

@@ -1,0 +1,45 @@
+/* ----- Home Route ----- */
+
+.matchday {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+.fixture {
+	font-size: 14px;
+	margin-top: 1px;
+	padding: 10px 0px;
+}
+
+/* ---------- END ---------- */
+
+/* ----- Match Route ----- */
+
+.hashtag {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.tweet {
+	margin-top: 2px;
+}
+
+.content {
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 7px;
+}
+
+/* ---------- END --------- */
+
+/* ---- Error and User Messages ---- */
+
+.error_message,
+.user_message {
+	font-size: 14px;
+}
+
+/* ----- END ----- */
