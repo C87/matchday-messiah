@@ -1,10 +1,10 @@
-# matchdayMesiah
+# matchday-messiah
 
 Twitter feed for Premier League fixtures.
 
 ## Description
 
-matchdayMesiah uses Fetch API to fetch Premier League fixtures and OAuth to interact with Twitter API.
+matchday-messiah uses Fetch API to fetch Premier League fixtures and OAuth to interact with Twitter API.
 
 ## Prerequisites
 
@@ -12,10 +12,10 @@ matchdayMesiah uses Fetch API to fetch Premier League fixtures and OAuth to inte
 
 ## Getting Started
 
-    $ git clone https://github.com/C87/matchdayMessiah.git
-	$ cd matchdayMessiah
-	npm install
+    $ git clone https://github.com/C87/matchday-messiah.git
+    $ cd matchday-messiah
+    $ npm install
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/C87/matchdayMessiah/blob/master/LICENSE)
+This project is licensed under the [MIT License](https://github.com/C87/matchday-messiah/blob/master/LICENSE)
