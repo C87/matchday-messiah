@@ -4,7 +4,7 @@ Twitter feed for Premier League fixtures.
 
 ## Description
 
-matchday-messiah uses Fetch API to fetch Premier League fixtures and OAuth to interact with Twitter API.
+Twitter feed for Premier League fixtures. The full list of fixtures returned from a GET request are iterated through, with the next round of fixtures and a hashtag generated from the backend returned to the client, previous and future fixtures are discarded. When a user clicks on a fixture, a Twitter API call is made using OAuth, passing the hashtag from the request parameters defined in the URL as a search variable. The results are returned to the client where the DOM is updated with tweets of fans talking about that fixture.
 
 ## Prerequisites
 
